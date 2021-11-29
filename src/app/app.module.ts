@@ -9,7 +9,6 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { httpInterceptorProviders } from './infra/http_interceptor';
-import { SideBarModule } from './presentation/view/pages/side-bar/side-bar.module';
 import { UtilsModule } from './presentation/view/shared/modules/utils/utils.module';
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -25,7 +24,6 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     AppRoutingModule,
     BrowserAnimationsModule,
     UtilsModule,
-    SideBarModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
