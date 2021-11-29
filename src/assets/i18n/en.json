@@ -1,0 +1,21 @@
+{
+  "sidebar": {
+    "users": "Users",
+    "forms": "Forms",
+    "forms-mask": "Forms CPF",
+    "forms-cpf": "Forms MASK",
+    "create": "Create",
+    "edit": "Edit",
+    "authentication": "Authentication",
+    "resetPassword": "Reset Password",
+    "signIn": "Sign-in",
+    "signOut": "Sign-out",
+    "myProfile": "My profile",
+    "notification": "Notification",
+    "language": "Language",
+    "help": "Help",
+    "goOut": "Go out",
+    "portuguese": "Portuguese",
+    "english": "English"
+  }
+}

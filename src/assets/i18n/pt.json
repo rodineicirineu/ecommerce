@@ -1,0 +1,21 @@
+{
+  "sidebar": {
+    "users": "Usuários",
+    "forms": "Formularios",
+    "forms-mask": "Formularios CPF",
+    "forms-cpf": "Formularios MASK",
+    "create": "Criar",
+    "edit": "Editar",
+    "authentication": "Autenticação",
+    "resetPassword": "Redefinir Senha",
+    "signIn": "Entrar",
+    "signOut": "Sair",
+    "myProfile": "Meu Perfil",
+    "notification": "Notificação",
+    "language": "Idioma",
+    "help": "Ajuda",
+    "goOut": "Sair",
+    "portuguese": "Português",
+    "english": "Inglês"
+  }
+}

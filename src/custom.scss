@@ -1,0 +1,59 @@
+@use '~@angular/material' as mat;
+
+@include mat.core();
+
+$my-primary: mat.define-palette(mat.$indigo-palette, 500);
+$my-accent: mat.define-palette(mat.$teal-palette, 400, A100, A400);
+$my-basic: mat.define-palette(mat.$grey-palette, 50);
+
+$my-theme: mat.define-light-theme((
+  color: (
+    primary: $my-primary,
+    accent: $my-accent,
+    basic: $my-basic,
+  ))
+);
+
+@include mat.core-theme($my-theme);
+@include mat.all-component-themes($my-theme);
+
+.theme-green {
+  background: #6b9788;
+  color: #ffffff;
+}
+
+.title-green {
+  color: #6b9788;
+}
+
+mat-icon {
+  cursor: pointer;
+}
+
+.width9 {
+  width: 90%;
+}
+.width8 {
+  width: 80%;
+}
+.width7 {
+  width: 70%;
+}
+.width6 {
+  width: 60%;
+}
+.width5 {
+  width: 50%;
+}
+.width4 {
+  width: 40%;
+}
+.width3 {
+  width: 30%;
+}
+.width2 {
+  width: 20%;
+}
+.cdk-overlay-pane {
+  transform: translateX(-25px);
+}

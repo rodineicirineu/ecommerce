@@ -1,0 +1,4 @@
+<div class="router" *ngIf="!userlogged">
+  <router-outlet ></router-outlet>
+</div>
+<app-side-bar *ngIf="userlogged"></app-side-bar>
